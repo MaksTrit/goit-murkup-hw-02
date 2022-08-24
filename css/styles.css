@@ -21,9 +21,11 @@
 
 body {
     font-family: var(--main-font), sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
     color: var(--main-text-color);
     background-color: var(--main-bg-color);
-    width: 1600px;
+
 }
 
 /* Сommon styles */
@@ -62,8 +64,7 @@ body {
     color:var(--header-logo-color);
     font-weight: 700;
     font-size: 26px;
-    line-height: calc(31 / 26);    
-    letter-spacing: 0.03em;
+    line-height: calc(31 / 26);
 }
 
 .logo {
@@ -73,7 +74,6 @@ body {
 .site-nav,
 .header-contacts-list {
     font-weight: 500;
-    font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
 }
@@ -105,7 +105,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
-    letter-spacing: 0.03em
 }
 
 .address {
@@ -114,9 +113,7 @@ body {
 
 .footer-company-adress .link,
 .footer-contacts .link {
-    font-size: 14px;
     line-height: calc(24 / 14);
-    letter-spacing: 0.03em;
 }
 
 .footer-company-adress .link {
@@ -151,6 +148,7 @@ body {
 }
 
 .hero-button {
+    font-family: var(--main-font);
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30 / 16);
@@ -168,22 +166,21 @@ body {
     font-size: 36px;
     line-height: calc(42 / 36);
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .benefits-item-title {
     font-weight: 700;
-    font-size: 14px;
     line-height: calc(16 / 14);
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .benefits-item-description {
-    font-size: 14px;
     line-height: calc(24 / 14);
-    letter-spacing: 0.03em;
     color: var(--description-text-color);
+}
+
+.team {
+    background-color: var(--team-bg-color);
 }
 
 .teammate-name {
@@ -191,24 +188,23 @@ body {
     font-size: 16px;
     line-height: 19px;     
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .team-mate-position {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--description-text-color);
 }
 
 /* Portfolio styles */
 .filters-button {
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
+    color: var(--main-text-color);
     line-height: calc(26 / 16);  
     text-align: center;
-    letter-spacing: 0.03em;
     background-color: var(--team-bg-color);
     cursor: pointer;
 }
@@ -229,6 +225,5 @@ body {
 .project-descriptions {
     font-size: 16px;
     line-height: calc(30 / 16);
-    letter-spacing: 0.03em;
     color: var(--description-text-color);
 }
